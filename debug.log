@@ -1,0 +1,135 @@
+[18Jan2023 14:45:09.695] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Lucleb8, --version, 1.19.3-forge-44.1.0, --gameDir, C:\Users\L-Dawg\AppData\Roaming\.minecraft, --assetsDir, C:\Users\L-Dawg\AppData\Roaming\.minecraft\assets, --assetIndex, 2, --uuid, c13c99aa5bb445cd8f418a4388b6959d, --accessToken, ????????, --clientId, NjU1Zjg1NjQtYmE4Ny00Yzc2LWExODItMDY2NjE0Y2MxODRk, --xuid, 2535429828430503, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 44.1.0, --fml.mcVersion, 1.19.3, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20221207.122022]
+[18Jan2023 14:45:09.699] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[18Jan2023 14:45:09.721] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[18Jan2023 14:45:09.735] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[18Jan2023 14:45:09.749] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[18Jan2023 14:45:09.761] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[18Jan2023 14:45:09.807] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[18Jan2023 14:45:09.818] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[18Jan2023 14:45:09.818] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[18Jan2023 14:45:09.819] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[18Jan2023 14:45:09.819] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[18Jan2023 14:45:09.820] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[18Jan2023 14:45:09.822] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[18Jan2023 14:45:09.822] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[18Jan2023 14:45:09.822] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.8+10.0.8+main.0ef7e830
+[18Jan2023 14:45:09.823] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[18Jan2023 14:45:09.823] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.3+6.0.3+master.039e4ea9
+[18Jan2023 14:45:09.824] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[18Jan2023 14:45:09.825] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[18Jan2023 14:45:09.826] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
+[18Jan2023 14:45:09.826] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[18Jan2023 14:45:09.827] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[18Jan2023 14:45:09.828] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[18Jan2023 14:45:09.833] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[18Jan2023 14:45:09.834] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[18Jan2023 14:45:09.847] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@55fe41ea
+[18Jan2023 14:45:09.861] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/L-Dawg/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2392!/ Service=ModLauncher Env=CLIENT
+[18Jan2023 14:45:09.865] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[18Jan2023 14:45:09.865] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[18Jan2023 14:45:09.866] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[18Jan2023 14:45:09.867] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[18Jan2023 14:45:09.867] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[18Jan2023 14:45:09.867] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[18Jan2023 14:45:09.869] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[18Jan2023 14:45:09.869] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[18Jan2023 14:45:09.870] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[18Jan2023 14:45:09.870] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\L-Dawg\AppData\Roaming\.minecraft
+[18Jan2023 14:45:09.871] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\L-Dawg\AppData\Roaming\.minecraft
+[18Jan2023 14:45:09.871] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\L-Dawg\AppData\Roaming\.minecraft\mods
+[18Jan2023 14:45:09.871] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\L-Dawg\AppData\Roaming\.minecraft\mods
+[18Jan2023 14:45:09.872] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\L-Dawg\AppData\Roaming\.minecraft\config
+[18Jan2023 14:45:09.872] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\L-Dawg\AppData\Roaming\.minecraft\config
+[18Jan2023 14:45:09.872] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\L-Dawg\AppData\Roaming\.minecraft\config\fml.toml
+[18Jan2023 14:45:09.872] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[18Jan2023 14:45:09.908] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\L-Dawg\AppData\Roaming\.minecraft\defaultconfigs
+[18Jan2023 14:45:09.909] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[18Jan2023 14:45:09.912] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[18Jan2023 14:45:09.912] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclient as launch service
+[18Jan2023 14:45:09.929] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=44.1.0, mcVersion=1.19.3, mcpVersion=20221207.122022, forgeGroup=net.minecraftforge]
+[18Jan2023 14:45:09.930] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[18Jan2023 14:45:09.931] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[18Jan2023 14:45:09.931] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[18Jan2023 14:45:09.931] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[18Jan2023 14:45:09.932] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[18Jan2023 14:45:09.932] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[18Jan2023 14:45:09.933] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[18Jan2023 14:45:09.933] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[18Jan2023 14:45:09.942] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[18Jan2023 14:45:09.945] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[18Jan2023 14:45:09.946] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[18Jan2023 14:45:09.957] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\L-Dawg\AppData\Roaming\.minecraft\mods\SPOILER_forgemod_VoxelMap-1.10.10_for_1.16.2.jar
+[18Jan2023 14:45:09.990] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file SPOILER_forgemod_VoxelMap-1.10.10_for_1.16.2.jar with {voxelmap} mods - versions {1.10.10}
+[18Jan2023 14:45:09.993] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\L-Dawg\AppData\Roaming\.minecraft\mods\wynntils-0.0.2-alpha.115-forge.jar
+[18Jan2023 14:45:09.998] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file wynntils-0.0.2-alpha.115-forge.jar with {wynntils} mods - versions {0.0.2-alpha.115}
+[18Jan2023 14:45:10.156] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-1.19.3-20221207.122022-srg.jar with {minecraft} mods - versions {1.19.3}
+[18Jan2023 14:45:10.162] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\fmlcore\1.19.3-44.1.0\fmlcore-1.19.3-44.1.0.jar
+[18Jan2023 14:45:10.162] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\fmlcore\1.19.3-44.1.0\fmlcore-1.19.3-44.1.0.jar is missing mods.toml file
+[18Jan2023 14:45:10.167] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.19.3-44.1.0\javafmllanguage-1.19.3-44.1.0.jar
+[18Jan2023 14:45:10.168] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.19.3-44.1.0\javafmllanguage-1.19.3-44.1.0.jar is missing mods.toml file
+[18Jan2023 14:45:10.172] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.19.3-44.1.0\lowcodelanguage-1.19.3-44.1.0.jar
+[18Jan2023 14:45:10.172] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.19.3-44.1.0\lowcodelanguage-1.19.3-44.1.0.jar is missing mods.toml file
+[18Jan2023 14:45:10.176] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\mclanguage\1.19.3-44.1.0\mclanguage-1.19.3-44.1.0.jar
+[18Jan2023 14:45:10.177] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\mclanguage\1.19.3-44.1.0\mclanguage-1.19.3-44.1.0.jar is missing mods.toml file
+[18Jan2023 14:45:10.205] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.19.3-44.1.0\forge-1.19.3-44.1.0-universal.jar
+[18Jan2023 14:45:10.208] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.3-44.1.0-universal.jar with {forge} mods - versions {44.1.0}
+[18Jan2023 14:45:10.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from client-1.19.3-20221207.122022-srg.jar, it does not contain dependency information.
+[18Jan2023 14:45:10.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from SPOILER_forgemod_VoxelMap-1.10.10_for_1.16.2.jar, it does not contain dependency information.
+[18Jan2023 14:45:10.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.19.3-44.1.0-universal.jar, it does not contain dependency information.
+[18Jan2023 14:45:10.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.19.3-44.1.0.jar, it does not contain dependency information.
+[18Jan2023 14:45:10.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.19.3-44.1.0.jar, it does not contain dependency information.
+[18Jan2023 14:45:10.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.19.3-44.1.0.jar, it does not contain dependency information.
+[18Jan2023 14:45:10.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.19.3-44.1.0.jar, it does not contain dependency information.
+[18Jan2023 14:45:10.279] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from hades-0.5.0.jar, it does not contain dependency information.
+[18Jan2023 14:45:10.279] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from MixinExtras-0.2.0-beta.1.jar, it does not contain dependency information.
+[18Jan2023 14:45:10.309] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[18Jan2023 14:45:10.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-1.19.3-20221207.122022-srg.jar with {minecraft} mods - versions {1.19.3}
+[18Jan2023 14:45:10.314] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraft\client\1.19.3-20221207.122022\client-1.19.3-20221207.122022-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[18Jan2023 14:45:10.315] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\L-Dawg\AppData\Roaming\.minecraft\mods\SPOILER_forgemod_VoxelMap-1.10.10_for_1.16.2.jar
+[18Jan2023 14:45:10.316] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file SPOILER_forgemod_VoxelMap-1.10.10_for_1.16.2.jar with {voxelmap} mods - versions {1.10.10}
+[18Jan2023 14:45:10.316] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\L-Dawg\AppData\Roaming\.minecraft\mods\SPOILER_forgemod_VoxelMap-1.10.10_for_1.16.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[25,)]]
+[18Jan2023 14:45:10.316] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.19.3-44.1.0\forge-1.19.3-44.1.0-universal.jar
+[18Jan2023 14:45:10.317] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.3-44.1.0-universal.jar with {forge} mods - versions {44.1.0}
+[18Jan2023 14:45:10.317] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\L-Dawg\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.19.3-44.1.0\forge-1.19.3-44.1.0-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[18Jan2023 14:45:10.319] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[18Jan2023 14:45:10.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[18Jan2023 14:45:10.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[18Jan2023 14:45:10.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[18Jan2023 14:45:10.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[18Jan2023 14:45:10.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[18Jan2023 14:45:10.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\L-Dawg\AppData\Roaming\.minecraft\mods\wynntils-0.0.2-alpha.115-forge.jar
+[18Jan2023 14:45:10.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file wynntils-0.0.2-alpha.115-forge.jar with {wynntils} mods - versions {0.0.2-alpha.115}
+[18Jan2023 14:45:10.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\L-Dawg\AppData\Roaming\.minecraft\mods\wynntils-0.0.2-alpha.115-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[44,)]]
+[18Jan2023 14:45:10.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[18Jan2023 14:45:10.322] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[18Jan2023 14:45:10.322] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[18Jan2023 14:45:10.333] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[18Jan2023 14:45:10.333] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[18Jan2023 14:45:10.334] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 44
+[18Jan2023 14:45:10.334] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 44
+[18Jan2023 14:45:10.338] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[18Jan2023 14:45:10.338] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[18Jan2023 14:45:10.339] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[18Jan2023 14:45:10.340] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
+[18Jan2023 14:45:10.341] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[18Jan2023 14:45:10.693] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[18Jan2023 14:45:10.693] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[18Jan2023 14:45:10.694] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[18Jan2023 14:45:10.694] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[18Jan2023 14:45:10.694] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[18Jan2023 14:45:10.695] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[18Jan2023 14:45:10.857] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[18Jan2023 14:45:10.857] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[18Jan2023 14:45:10.910] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[18Jan2023 14:45:10.910] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[18Jan2023 14:45:10.939] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[18Jan2023 14:45:10.944] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@55651434 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[18Jan2023 14:45:10.945] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@43bdaa1b to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[18Jan2023 14:45:10.945] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@30b975ad to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[18Jan2023 14:45:10.945] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@75e09567 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[18Jan2023 14:45:10.945] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2a334bac to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[18Jan2023 14:45:10.945] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@470d183 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[18Jan2023 14:45:10.945] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7f9fc8bd to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[18Jan2023 14:45:10.946] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@ea52184 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[18Jan2023 14:45:10.946] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3e7b65d7 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[18Jan2023 14:45:10.946] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
